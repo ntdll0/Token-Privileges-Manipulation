@@ -4,7 +4,7 @@ Implementation of process sandboxing in c++, elevates to SYSTEM via impersonatio
 Command Line parameters:<br>
 \<pid\> - Represents process id you wanna strip privileges from.
 
-Can be used to remove privileges from any kind of process, including AntiVirus service processes, making them unable to detect threats.<br>
+Can be used to remove privileges from any kind of process, including AV service processes, making them unable to detect threats.<br>
 
 Example of stripping privileges from powershell running under NTAUTHORITY\SYSTEM with highest possible privileges.<br>
 ![xVvv592Te0](https://github.com/ntdll0/Token-Privileges-Manipulation/assets/164230949/1456c8ea-a081-4fea-9385-173a37f4a495)<br><br>
